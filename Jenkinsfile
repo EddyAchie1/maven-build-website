@@ -13,7 +13,7 @@ pipeline {
         }
         stage("build with maven") {
             steps {
-                sh'''''''
+                sh'''
                 mvn clean
                 mvn test
                 mvn package
