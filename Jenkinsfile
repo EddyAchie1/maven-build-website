@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage ("Git clone") {
             steps{
-               git 'https://github.com/EddyAchie1/maven-build-website.git'
+                git 'https://github.com/EddyAchie1/maven-build-website.git'
             }
         }
 
